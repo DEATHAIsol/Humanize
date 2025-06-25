@@ -49,7 +49,7 @@
                 </h4>
                 <h3 class="mr-2 text-xs opacity-50">
                     {#if label === "proton"}
-                        Parsed transaction data from XRAY's Proton
+                        Parsed transaction data from TRACERS'S Proton
                     {:else if label === "enriched"}
                         Enriched transaction data from the Helius API
                     {:else if label === "raw"}

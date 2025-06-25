@@ -6,7 +6,7 @@ import Menu from "$lib/components/modals/menu.svelte";
 import TransactionFilter from "$lib/components/modals/transaction-filter.svelte";
 import WalletSelector from "$lib/components/modals/wallets.svelte";
 
-export const recentSearchesKey = "xray:searches";
+export const recentSearchesKey = "tracer:searches";
 
 export const modals: Record<string, Modal> = {
     HELP: {
@@ -15,7 +15,7 @@ export const modals: Record<string, Modal> = {
     },
     MENU: {
         component: Menu,
-        title: "XRAY",
+        title: "TRACER",
     },
     SELECT_MULTI_WALLET: {
         component: WalletSelector,

@@ -30,7 +30,7 @@
                 href="/?network={isMainnetValue ? 'mainnet' : 'devnet'}"
                 rel="noreferrer"
             >
-                <span class="text-3xl">XRAY</span>
+                <span class="text-3xl">TRACER</span>
             </a>
         </div>
 
@@ -51,7 +51,7 @@
                     data-tip="Docs"
                 >
                     <a
-                        href="https://docs.helius.dev/welcome/what-is-helius"
+                        href="https://google.com"
                         rel="noreferrer"
                         target="_blank"
                         class="btn-ghost btn"

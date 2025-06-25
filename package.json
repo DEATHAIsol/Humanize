@@ -1,5 +1,5 @@
 {
-    "name": "xray",
+    "name": "tracer",
     "version": "1.0.0",
     "type": "module",
     "platform": "node",

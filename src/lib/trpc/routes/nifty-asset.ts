@@ -24,7 +24,7 @@ export const niftyAsset = t.procedure
 
         if (accountInfo) {
             return getAssetAccountDataSerializer().deserialize(
-                accountInfo.data
+                new Uint8Array(accountInfo.data.buffer)
             );
         }
 

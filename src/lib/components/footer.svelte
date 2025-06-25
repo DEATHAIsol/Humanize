@@ -1,19 +1,18 @@
 <script>
     import Icon from "$lib/components/icon.svelte";
-    import PoweredByHelius from "$lib/components/powered-by-helius.svelte";
 </script>
 
 <footer
     class="footer mt-0 grid w-full grid-cols-2 items-center border bg-black p-3"
 >
     <div class="col-span-1 flex items-center">
-        <PoweredByHelius />
+        <!-- PoweredByHelius removed -->
     </div>
 
     <div class="col-span-1 flex w-full justify-end">
         <div class="mr-12">
             <a
-                href="https://discord.com/invite/6GXdee3gBj"
+                href="https://discord.com"
                 class="btn-ghost btn"
             >
                 <Icon
@@ -22,7 +21,7 @@
                 />
             </a>
             <a
-                href="https://twitter.com/heliuslabs"
+                href="https://x.com"
                 class="btn-ghost btn"
             >
                 <Icon
